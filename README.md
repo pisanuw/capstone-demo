@@ -3,27 +3,27 @@
 ## Purpose
 This repository is intended to support you configuring your Docker container to use Google Test to support your Test Driven Development
 
-## Steps for you to follow for Setup
-1. Setup container following [CSS Wiki Instructions](https://csswiki.uwb.edu/css-linux-lab-docker-image/)
-    1. NOTE: You will need to sign in with your UW NET ID 
-1. CSS Wiki on how to [open Docker container](https://csswiki.uwb.edu/attach-vscode-to-csslab-docker-container/)
-    1. NOTE: You will need to sign in with your UW NET ID 
+## Reminder, Steps for you to follow to open for Setup
+1. Follow Setup Instructions (if you have not yet)
+1. Open up your container that has been setup (skip if already open) 
     1. Docker - start the container you made from containers page of docker desktop
     1. Remote Explorer (VSC) - find the container with the play button icon
-    ![images/play button.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/play%20button.PNG))
+    ![images/play button.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/play%20button.PNG)
     1. Open the container (pick either A or B)
         1. Same window - press arrow; ->
         1. New window, the window with a + in corner; +[]
         ![images/showing opening](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/showing%20area%20selected.png)
     1. Wait for loading (probably will say something like 'starting container' and have a loading bar)
-1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-Setup_Repo.git'
-1. Enter command in bash terminal: 'cd capstone-Setup_Repo/'
-1. Enter command in bash terminal: './install-googletest.sh'
-    1. NOTE: install-googletest.sh should be executable, but if for some reason that gets lost, Enter command in bash terminal: 'chmod +x install-googletest.sh'; Then run install command again
-1. Wait for the script to run and install google test
-1. Following notes at bottom of script,
-    1. If install ok (no errors), Enter command in bash terminal: 'rm -rf googletest'
-    2. If not ok (errors), follow instrucitons left at end of the output, seek additional support if needed.
-1. Congratulations! Google Test should now be installed!
-    1. You will not have to run the install script again locally within the contatiner used. You will only need to re-do this process to use a different container
-    2. The install script (install-googletest.sh) will be present in future repos for GitHub Actions' usage. You will not need to use it or intervene to install google test on GitHub Actions
+1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-demo.git'
+
+
+## Steps to Run tests (locally)
+1. Enter command in bash terminal: 'cd capstone-demo/'
+    1. If not already here. You want to be in same folder as the code files for this repo.
+1. Write your code in the code files (<whatever>.cpp, <whatever>.h, etc...)
+1. To Run, Enter command in bash terminal: ./runit.sh
+    1. If it fails to run, Enter command in bash terminal: 'chmod +x runit.sh' 
+1. To Debug, VSC menu:
+    1. RUN > Start Debugging (F5)
+    2. Pre existing configuration
+    3. *** Not fully working yet (as of 2/13). Running works fine, getting debugging to work reliably, not completed yet...
