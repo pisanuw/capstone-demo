@@ -3,7 +3,7 @@
 ## Purpose
 This repository is intended to support you configuring your Docker container to use Google Test to support your Test Driven Development
 
-## Reminder, Steps for you to follow to open for Setup
+## Part A Steps, If you already have done setup, skip to step 3
 1. Follow Setup Instructions (if you have not yet)
 1. Open up your container that has been setup (skip if already open) 
     1. Docker - start the container you made from containers page of docker desktop
@@ -20,9 +20,7 @@ This repository is intended to support you configuring your Docker container to 
 
 
 ## Steps to Run tests (locally)
-1. Enter command in bash terminal: 'cd capstone-demo/'
-    1. If not already here. You want to be in same folder as the code files for this repo.
-1. Write your code in the code files (<whatever>.cpp, <whatever>.h, etc...)
+1. Write your code in the code files (*.cpp, *.h, etc...)
 1. To Run, Enter command in bash terminal: ./runit.sh
     1. If it fails to run, Enter command in bash terminal: 'chmod +x runit.sh' 
 1. To Debug, VSC menu:
