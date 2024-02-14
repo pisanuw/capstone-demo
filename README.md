@@ -25,5 +25,4 @@ This repository is intended to support you configuring your Docker container to 
     1. If it fails to run, Enter command in bash terminal: 'chmod +x runit.sh' 
 1. To Debug, VSC menu:
     1. RUN > Start Debugging (F5)
-    2. Pre existing configuration
-    3. *** Not fully working yet (as of 2/13). Running works fine, getting debugging to work reliably, not completed yet...
+    2. If it asks you to select a debugging mode / script, use "C/C++: g++ build and debug files"
