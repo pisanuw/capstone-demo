@@ -3,7 +3,7 @@
 ## Purpose
 This repository is intended to support you configuring your Docker container to use Google Test to support your Test Driven Development
 
-## Part A Steps, If you already have done setup, skip to step 3
+## Part A Steps - Once per opening (skipping steps here possible on repeated opening in many cases)
 1. Follow Setup Instructions (if you have not yet)
 1. Open up your container that has been setup (skip if already open) 
     1. Docker - start the container you made from containers page of docker desktop
@@ -19,7 +19,7 @@ This repository is intended to support you configuring your Docker container to 
 1. Use Bash terminal 'code .' which will reopen vsc in that folder (This updates your workspace so debugging can work)
 
 
-## Steps to Run tests (locally)
+## Steps to Run tests (locally) - doing these every time you want to run/test your new code
 1. Write your code in the code files (*.cpp, *.h, etc...)
 1. To Run, Enter command in bash terminal: ./runit.sh
     1. If it fails to run, Enter command in bash terminal: 'chmod +x runit.sh' 
