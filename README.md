@@ -15,7 +15,7 @@ This repository is intended to support you configuring your Docker container to 
         ![images/showing opening](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/showing%20area%20selected.png)
     1. Wait for loading (probably will say something like 'starting container' and have a loading bar)
 1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-demo.git'
-1. Use Bash terminal 'ls -alh' and 'cd <path>' to navigate inside the root of the github repo
+1. Use Bash terminal 'ls -alh' and 'cd (path)' to navigate inside the root of the github repo
 1. Use Bash terminal 'code .' which will reopen vsc in that folder (This updates your workspace so debugging can work)
 
 
