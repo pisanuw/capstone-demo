@@ -17,10 +17,11 @@ Completing this should prepare you to know what to do for your next full assignm
         ![images/showing opening](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/showing%20area%20selected.png)
     1. Wait for loading (probably will say something like 'starting container'or 'starting dev container' and have a loading bar)
 1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-demo.git'
-1. Use Bash terminal 'ls -alh' and 'cd (path)' to navigate to the root of the github repo
+1. Use Bash terminal 'ls -alh' and 'cd (dir to move to)' to navigate to the root of the github repo
     1. I.e., A/B/C/<Repo_Name>
     2. E.g., /home/cssuwbstudent/UWnetid/capstone-demo; Where capstone-demo is the repo name for the project.
-1. Use Bash terminal 'code .' which will reopen vsc in that folder (This updates your workspace so debugging can work)
+    3. Note, In most cases, this means you will end up only needing to 'cd' into the github repo itself once downloaded.
+1. Use Bash terminal 'code .' which will reopen vsc in that folder (This automatically updates your workspace so debugging can work)
 
 
 ## Steps to Run tests (locally) - doing these every time you want to run/test your new code
