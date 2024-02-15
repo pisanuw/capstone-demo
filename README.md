@@ -5,7 +5,7 @@ This repository is intended to support you practicing using your Docker containe
 Completing this should prepare you to know what to do for your next full assignment.
 
 ## Part A Steps - Once per opening (skipping steps here is often possible on repeated re-opening). Pay close attention to steps 3-5.
-1. Follow Setup Instructions (if you have not yet)
+1. Follow 1-time Setup Instructions (if you have not yet)
     1. [Setup Repo](https://github.com/Jeffcaruso/capstone-Setup_Repo) 
 1. Open up your container that has been setup (skip if already open) 
     1. Docker - start the container you made from containers page of docker desktop
@@ -15,9 +15,11 @@ Completing this should prepare you to know what to do for your next full assignm
         1. Same window - press arrow; ->
         1. New window, the window with a + in corner; +[]
         ![images/showing opening](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/showing%20area%20selected.png)
-    1. Wait for loading (probably will say something like 'starting container' and have a loading bar)
+    1. Wait for loading (probably will say something like 'starting container'or 'starting dev container' and have a loading bar)
 1. Clone the repo e.g.,'git clone https://github.com/Jeffcaruso/capstone-demo.git'
-1. Use Bash terminal 'ls -alh' and 'cd (path)' to navigate inside the root of the github repo
+1. Use Bash terminal 'ls -alh' and 'cd (path)' to navigate to the root of the github repo
+    1. I.e., A/B/C/<Repo_Name>
+    2. E.g., /home/cssuwbstudent/UWnetid/capstone-demo; Where capstone-demo is the repo name for the project.
 1. Use Bash terminal 'code .' which will reopen vsc in that folder (This updates your workspace so debugging can work)
 
 
@@ -28,4 +30,4 @@ Completing this should prepare you to know what to do for your next full assignm
 1. To Debug, use the VSC menu:
     1. RUN > Start Debugging (F5)
     2. If it asks you to select a debugging mode / script, use "C/C++: g++ build and debug files"
-        1. If it does ask, is should only ask you this the first time debugging 
+        1. If it does ask, is should only ask you this the first time debugging this repo.
