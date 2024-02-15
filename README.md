@@ -12,7 +12,7 @@ Completing this should prepare you to know what to do for your next full assignm
     1. Remote Explorer (VSC) - find the container with the play button icon
     ![images/play button.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/play%20button.PNG)
     Note, you may need to select 'dev container' from the drop down menu
-    ![images/drop down.png](https://github.com/Jeffcaruso/capstone-Setup_Repo/blob/main/images/drop%20down.PNG)
+    ![images/drop down.png](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/drop%20down.PNG)
     Then scroll down to the other containers section looking for that play button
     1. Open the container (pick either A or B)
         1. Same window - press arrow; ->
