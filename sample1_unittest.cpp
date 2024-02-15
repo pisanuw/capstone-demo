@@ -11,6 +11,7 @@ TEST(FactorialTest, Negative) {
   // test case.
   EXPECT_EQ(1, Factorial(-5));
   EXPECT_EQ(1, Factorial(-1));
+  EXPECT_EQ(120, Factorial(5));
   EXPECT_GT(Factorial(-10), 0);
 }
 
