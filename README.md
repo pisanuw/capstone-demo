@@ -46,14 +46,17 @@ Completing this should prepare you to know what to do for your next full assignm
 
 ## Steps of tracking VSC GitHub Actions Autograder
 1. Follow previous steps to commit to the GitHub repo
-2. Navigate in a browser to see the repo page
-3. There will be a yellow circle while the tests are running to the right of your commit message
-4. There once testing completes there will either be a:
+1. Navigate in a browser to see the repo page
+1. There will be a yellow circle while the tests are running to the right of your commit message
+    1. ![images/actions status.png](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/actions%20status.PNG)
+1. There once testing completes there will either be a:
     1. Red X
     2. Green check
-5. In any case - Yellow, green, or red you can click on it to open a summary view, then click details so see a detailed view like below
+1. In any case - Yellow, green, or red you can click on it to open a summary view, then click details so see a detailed view like below
     1. Summary view
-    2. Detailed view
+        1. ![images/summary view.png](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/summary%20view.PNG)
+    3. Detailed view
+        1. ![images/detailed view.png](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/detailed%20view.PNG)
 
 
 
