@@ -34,3 +34,26 @@ Completing this should prepare you to know what to do for your next full assignm
     1. RUN > Start Debugging (F5)
     2. If it asks you to select a debugging mode / script, use "C/C++: g++ build and debug files"
         1. If it does ask, is should only ask you this the first time debugging this repo.
+
+## Steps to Commit to GitHub with VSC
+### Prerequisite: you have already 'git cloned' and 'code .' properly
+1. Make changes to commit, view changes in the source control tab of VSC
+2. Enter a commit message
+3. Press 'commit'
+4. Press 'Sync Changes'
+5. Press OK to the "This action will push and pull commits from and to origin/main" dialog
+6. Your code will be pushed to github
+
+## Steps of tracking VSC GitHub Actions Autograder
+1. Follow previous steps to commit to the GitHub repo
+2. Navigate in a browser to see the repo page
+3. There will be a yellow circle while the tests are running to the right of your commit message
+4. There once testing completes there will either be a:
+    1. Red X
+    2. Green check
+5. In any case - Yellow, green, or red you can click on it to open a summary view, then click details so see a detailed view like below
+    1. Summary view
+    2. Detailed view
+
+
+
