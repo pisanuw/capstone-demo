@@ -1,10 +1,12 @@
 # CSS 342 / 343 Docker Demo
 
 ## Purpose
-This repository is intended to support you configuring your Docker container to use Google Test to support your Test Driven Development
+This repository is intended to support you practicing using your Docker container and Google Test to use TDD to complete your assignments. 
+Completing this should prepare you to know what to do for your next full assignment.
 
-## Part A Steps - Once per opening (skipping steps here possible on repeated opening in many cases)
+## Part A Steps - Once per opening (skipping steps here is often possible on repeated re-opening). Pay close attention to the final 3 steps of this section.
 1. Follow Setup Instructions (if you have not yet)
+    1. [Setup Repo](https://github.com/Jeffcaruso/capstone-Setup_Repo) 
 1. Open up your container that has been setup (skip if already open) 
     1. Docker - start the container you made from containers page of docker desktop
     1. Remote Explorer (VSC) - find the container with the play button icon
