@@ -37,7 +37,7 @@ Completing this should prepare you to know what to do for your next full assignm
 
 ## Steps to Commit to GitHub with VSC
 ### Prerequisite: you have already 'git cloned' and 'code .' properly
-1. Make changes to commit, view changes in the source control tab of VSC
+1. Make changes to commit, view changes in the source control ![images/source control](https://github.com/Jeffcaruso/capstone-demo/blob/main/images/source%20control.PNG) tab of VSC
 2. Enter a commit message
 3. Press 'commit'
 4. Press yes on the 'There are no staged changes to commit' dialog box.
