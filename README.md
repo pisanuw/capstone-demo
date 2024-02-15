@@ -4,7 +4,7 @@
 This repository is intended to support you practicing using your Docker container and Google Test to use TDD to complete your assignments. 
 Completing this should prepare you to know what to do for your next full assignment.
 
-## Part A Steps - Once per opening (skipping steps here is often possible on repeated re-opening). Pay close attention to the final 3 steps of this section.
+## Part A Steps - Once per opening (skipping steps here is often possible on repeated re-opening). Pay close attention to steps 3-5.
 1. Follow Setup Instructions (if you have not yet)
     1. [Setup Repo](https://github.com/Jeffcaruso/capstone-Setup_Repo) 
 1. Open up your container that has been setup (skip if already open) 
@@ -25,6 +25,7 @@ Completing this should prepare you to know what to do for your next full assignm
 1. Write your code in the code files (*.cpp, *.h, etc...)
 1. To Run, Enter command in bash terminal: ./runit.sh
     1. If it fails to run, Enter command in bash terminal: 'chmod +x runit.sh' 
-1. To Debug, VSC menu:
+1. To Debug, use the VSC menu:
     1. RUN > Start Debugging (F5)
     2. If it asks you to select a debugging mode / script, use "C/C++: g++ build and debug files"
+        1. If it does ask, is should only ask you this the first time debugging 
